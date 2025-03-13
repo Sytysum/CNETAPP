@@ -1,0 +1,10 @@
+{
+  "build": {
+    "backend": "cd backend && pip install -r requirements.txt",
+    "frontend": "cd frontend && npm install && npm run build"
+  },
+  "start": {
+    "backend": "uvicorn backend_fastapi:app --host 0.0.0.0 --port $PORT",
+    "frontend": "cd frontend && npm install -g serve && serve -s build -l 3000"
+  }
+}
