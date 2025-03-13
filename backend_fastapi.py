@@ -3,7 +3,7 @@ import pandas as pd
 from typing import List
 
 # Wczytanie przetworzonych danych
-file_path = "/mnt/data/final_data.csv"  # Możesz podmienić na właściwy plik
+file_path = "/final_data_part2.csv"  # Możesz podmienić na właściwy plik
 
 df = pd.read_csv(file_path)
 
